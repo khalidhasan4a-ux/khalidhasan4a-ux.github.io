@@ -59,15 +59,31 @@
   }
   .hero-inner{display:flex;align-items:center;gap:36px;flex-wrap:wrap;position:relative;z-index:1;}
   .seal{
-    flex:0 0 auto;width:112px;height:112px;border-radius:50%;
-    border:2px solid var(--gold);
-    display:flex;align-items:center;justify-content:center;
-    background:#fff9f0;
-    box-shadow:0 0 0 5px rgba(201,162,75,0.08);
+    flex:0 0 auto;
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:3px solid var(--gold);
+    background:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     overflow:hidden;
-    padding:10px;
-  }
-  .seal img{width:100%;height:100%;object-fit:contain;}
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+.seal img{
+    width:88%;
+    height:88%;
+    object-fit:contain;
+    object-position:center;
+    display:block;
+}
+
+.hero-text{
+    min-width:260px;
+    flex:1 1 380px;
+}
   .hero-text{min-width:260px;flex:1 1 380px;}
   .eyebrow{
     font-family:var(--mono);font-size:12px;letter-spacing:.1em;color:var(--gold);
