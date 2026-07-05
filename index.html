@@ -59,17 +59,18 @@
   }
   .hero-inner{display:flex;align-items:center;gap:36px;flex-wrap:wrap;position:relative;z-index:1;}
  .seal{
-    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     width:130px;
     height:130px;
     border-radius:50%;
     border:3px solid var(--gold);
-    background:#ffffff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    background:#fff;
     overflow:hidden;
     box-shadow:0 0 15px rgba(0,0,0,.15);
+    text-decoration:none;
+    cursor:pointer;
 }
 
 .seal img{
@@ -183,12 +184,16 @@
 <header class="hero">
   <div class="wrap hero-inner">
     
-   <div class="seal">
-    <a href="https://www.mbstu.ac.bd/" target="_blank" rel="noopener noreferrer">
-        <img src="mbstu-logo.png"
-             alt="Mawlana Bhashani Science and Technology University logo">
-    </a>
-</div>
+  <a class="seal"
+   href="https://www.mbstu.ac.bd/"
+   target="_blank"
+   rel="noopener noreferrer">
+
+    <img src="mbstu-logo.png"
+         alt="MBSTU Logo">
+
+</a>
+    
     
     <div class="hero-text">
       <span class="eyebrow">B.SC. IN INFORMATION &amp; COMMUNICATION TECHNOLOGY</span>
